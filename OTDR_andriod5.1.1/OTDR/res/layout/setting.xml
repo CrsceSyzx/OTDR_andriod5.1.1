@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <Spinner
+        android:id="@+id/liangchengitem"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_x="119dp"
+        android:layout_y="33dp"
+        android:entries="@array/liangcheng" />
+
+    <Spinner
+        android:id="@+id/maikuanitem"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:layout_x="120dp"
+        android:layout_y="86dp"
+        android:entries="@array/maikuan" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="302dp"
+        android:layout_y="74dp"
+        android:text="IP：" />
+
+    <EditText
+        android:id="@+id/iptex"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_x="338dp"
+        android:layout_y="58dp"
+        android:ems="10"
+        android:inputType="textPostalAddress" >
+        
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="290dp"
+        android:layout_y="131dp"
+        android:text="端口：" />
+
+    <EditText
+        android:id="@+id/duankoutex"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_x="338dp"
+        android:layout_y="125dp"
+        android:ems="10"
+        android:text="5000"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="290dp"
+        android:text="测量时间：" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="204dp"
+        android:text="折射率：" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="155dp"
+        android:text="波长：" />
+
+    <Spinner
+        android:id="@+id/bochangitem"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:layout_x="122dp"
+        android:layout_y="142dp"
+        android:entries="@array/bochang" />
+
+    <TextView
+        android:id="@+id/eve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="98dp"
+        android:text="脉宽：" />
+
+    <TextView
+        android:id="@+id/RecvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="47dp"
+        android:text="量程：" />
+
+    <Spinner
+        android:id="@+id/celiangshijianitem"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:layout_x="127dp"
+        android:layout_y="282dp"
+        android:entries="@array/celiangshijian" />
+
+    <Spinner
+        android:id="@+id/zhouqiitem"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_x="126dp"
+        android:layout_y="239dp"
+        android:entries="@array/zhouqi" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="250dp"
+        android:text="周期：" />
+
+    <EditText
+        android:id="@+id/zheshelvtex"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="188dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/Butre"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_x="341dp"
+        android:layout_y="207dp"
+        android:text="确认修改" />
+
+</AbsoluteLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_weizhi"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.98"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="事件位置"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    
+    <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/text_leixing"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.98"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="事件类型"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+         android:id="@+id/text_huibosunhao"
+         android:layout_width="0dip"
+         android:layout_height="wrap_content"
+         android:layout_weight="1.98"
+         android:gravity="center"
+         android:paddingBottom="10dip"
+         android:paddingTop="10dip"
+         android:singleLine="true"
+         android:text="回波损耗"
+         android:textColor="#000000"
+         android:textSize="15sp" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+         android:id="@+id/text_charusunhao"
+         android:layout_width="0dip"
+         android:layout_height="wrap_content"
+         android:layout_weight="1.98"
+         android:gravity="center"
+         android:paddingBottom="10dip"
+         android:paddingTop="10dip"
+         android:singleLine="true"
+         android:text="插入损耗"
+         android:textColor="#000000"
+         android:textSize="15sp" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+         android:id="@+id/text_shuaijianxishu"
+         android:layout_width="0dip"
+         android:layout_height="wrap_content"
+         android:layout_weight="1.98"
+         android:gravity="center"
+         android:paddingBottom="10dip"
+         android:paddingTop="10dip"
+         android:singleLine="true"
+         android:text="衰减系数"
+         android:textColor="#000000"
+         android:textSize="15sp" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+         android:id="@+id/text_leijishuaijian"
+         android:layout_width="0dip"
+         android:layout_height="wrap_content"
+         android:layout_weight="1.98"
+         android:gravity="center"
+         android:paddingBottom="10dip"
+         android:paddingTop="10dip"
+         android:singleLine="true"
+         android:text="累计损耗"
+         android:textColor="#000000"
+         android:textSize="15sp" />
+
+</LinearLayout>
